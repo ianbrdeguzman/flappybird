@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    background: white;
+    z-index: 1;
+}
+
+.social p a {
+    color: #272727;
+}
